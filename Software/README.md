@@ -19,8 +19,11 @@ The [DS18B20](https://store.comet.bg/download-file.php?id=2918) is a digital tem
 
 ## MCP9701A-Analog temperature sensor
 MCP9700/A/B and [MCP9701/A](https://store.comet.bg/download-file.php?id=4649) is a sensor with Linear Active Thermistor Integrated Circuit (IC) comprise a family of analog temperature sensors that convert temperature to analog voltage.
+<p align="center">
+   **_No libraries required_**
+</p>
  
- **_No libraries required_**
+
 
 
 
