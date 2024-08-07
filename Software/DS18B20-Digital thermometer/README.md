@@ -12,5 +12,5 @@ Sensor 2 : 26.19°C
 | Raspberry Pi Pico  |     DS18B20     |     DS18B20     |
 | ------------------ | -------------   | -------------   |
 | 3,3V               | Vdd             | Vdd             |
-| Pin 15             | Dq              | Dq              |
+| Pin 22             | Dq              | Dq              |
 | GND                | GND             | GND             |
