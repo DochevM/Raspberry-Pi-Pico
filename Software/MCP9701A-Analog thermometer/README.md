@@ -23,6 +23,5 @@ ATemp = 26.65 C
 | 3,3V               | Vdd                |
 | ADC0               | Vout               |
 | GND                | GND                |
-| GND                | GND                |
 
 ![alt text](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)
