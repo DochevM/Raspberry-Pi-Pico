@@ -1,5 +1,5 @@
 ## Output
-![](https://github.com/Raspberry-Pi-Pico/Output_Oled.gif)
+![alt text](Output_Oled.gif)
 ## Connections
 
 | Raspberry Pi Pico  |     WEA012864D     |
