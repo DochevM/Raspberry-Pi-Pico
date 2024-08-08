@@ -15,9 +15,8 @@
 - Accelerated floating-point libraries on-chip
 - 8 × Programmable I/O (PIO) state machines for custom peripheral support
 
-<p align="center">
-  <img width=850" height="450" src="[https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/raspberry-pi-pico.png?raw=true)">
-</p>
+![image](https://github.com/user-attachments/assets/da187479-24ed-4435-9a78-6c40e8c2605d)
+
 
 # About RP2040
 [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) 
