@@ -3,7 +3,6 @@
 Locating devices...Found 1 devices.
 Parasite power is: OFF
 Device 0 Address: 28DCA4740E0000D9
-Device 0 Resolution: 9
 Temp C: 27.00
 Temp C: 27.00
 Temp C: 27.00
