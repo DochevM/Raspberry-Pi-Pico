@@ -1,5 +1,4 @@
-## Raspberry Pi Pico
-# About Raspberry Pi Pico
+# Raspberry Pi Pico
 [Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf) is a low-cost, high-performance microcontroller board with flexible digital interfaces. Key features include:
 
 - RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom
@@ -18,7 +17,7 @@
   <img width="600" height="330" src="https://github.com/user-attachments/assets/da187479-24ed-4435-9a78-6c40e8c2605d">
 </p>
 
-# About RP2040
+# RP2040
 [RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) 
 is manufactured on a modern 40nm process node, delivering high performance, low dynamic power
 consumption, and low leakage, with a variety of low-power modes to support extended-duration operation on battery
@@ -43,7 +42,6 @@ Key features:
 
 # Embedded sensors for RP2040
 - MCP9701A - Analog temperature sensor
-- DS18B20 - Digital analog sensor
 - DHT11 - Digitial temperature and humidity sensor
 - DHT22 - Digitial temperature and humidity sensor
 - DS18B20 - Digital temperature sensor

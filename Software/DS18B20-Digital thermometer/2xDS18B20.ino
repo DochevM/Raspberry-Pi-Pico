@@ -13,10 +13,10 @@ DallasTemperature sensors(&oneWire);
 int deviceCount = 0;
 float tempC;
 
-void setup(void)
-{
+void setup(){
   sensors.begin();	// Start up the library
   Serial.begin(9600);
+  delay(2000);
   
   // locate devices on the bus
   Serial.print("Locating devices...");

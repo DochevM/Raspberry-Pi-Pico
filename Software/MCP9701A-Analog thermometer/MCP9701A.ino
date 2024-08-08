@@ -1,13 +1,9 @@
-/*=========================Header=========================*/
-#include <Arduino.h>
-#include <SPI.h>
-#include <Wire.h>
-/*=========================Variables=========================*/
+//Variables
 const int numReadings = 10;
 
-int readings[numReadings];  // the readings from the analog input
+int readings[numReadings];  
 int readIndex = 0;          // the index of the current reading
-int total = 0;              // the running total 
+int total = 0;              
 
 int averageValue = 0;           // the average
 int oldValue = 0;
@@ -19,13 +15,12 @@ float voltage = 0;
 int state = 0; 
 float tempvalue = 0;
 
- // Read the temp from the sensor.
 float ATStemp = 0;
-/*=========================A and D Pins=========================*/
 
-int AIN0 = 0; //17.07.2023
+//Pin definition
+int AIN0 = 0; 
 
-/*=========================SetUP=========================*/
+
 void setup() {
 
   Serial.begin(9600);
@@ -35,50 +30,27 @@ void setup() {
   for (int thisReading = 0; thisReading < numReadings; thisReading++) { 
     readings[thisReading] = 0;
   }
-/*=========================Pin Modes=========================*/
-  //10.07.2023
-  pinMode(LED_BUILTIN,OUTPUT);
 
-/*=======================Start up phase========================*/
+  pinMode(LED_BUILTIN,OUTPUT);
 
   }
 
 void loop() {
 
-  /*===================BuiltIn blink indicator=================*/
+ //Indicator that the Raspberry Pi Pico is working
   digitalWrite(LED_BUILTIN,HIGH);
   delay(1000);                   
-  digitalWrite(LED_BUILTIN,LOW);//10.07.2023
+  digitalWrite(LED_BUILTIN,LOW);
   delay(1000);
   digitalWrite(LED_BUILTIN,HIGH);
 
-
-//13.07.202
-  if(ATStemp >=10 && ATStemp <= 25){ 
-    Serial.println("Acceptable!");
-
-  }
-  if(ATStemp >= 0 && ATStemp < 10){
-    Serial.println("COLD!!");
-  }
-  if(ATStemp > 25){
-    Serial.println("HOT!!");
-  }
-  textTempnHum();
+  //Function calling
   ATSaverage();
 }
 
-/*=========================Void Functions=========================*/
-//18/19.07.2023
-void textTempnHum(void) {
 
-  Serial.print("ATemp: ");
-  Serial.print(ATStemp);
-  Serial.print(" C");
-  Serial.println();
-  delay(1000);
-}
-//17.07.2023
+
+
 void ATSaverage (void){
   oldValue = averageValue; 
 
@@ -119,6 +91,6 @@ void ATSaverage (void){
       }
 }
 
-  delay(100);
+  delay(500);
 
 }

@@ -7,8 +7,10 @@ Humidity: 42.80%  Temperature: 25.80°C
 ```
 ## Connections
 
-| Raspberry Pi Pico  |     DHT22     |
-| ------------------ | ------------- |
-| 3,3V               | Vcc           |
-| Pin 15             | Data          |
-| GND                | GND           |
+| Raspberry Pi Pico  |       DHT22        |
+| ------------------ | ------------------ |
+| 3,3V               | Vcc                |
+| GP15               | Data               |
+| GND                | GND                |
+
+![alt text](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)

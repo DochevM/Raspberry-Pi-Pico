@@ -15,13 +15,13 @@ DHT dht(DHTPIN, DHTTYPE);
 // Arrays to store temperature and humidity readings
 float temperatureReadings[NUM_READINGS];
 float humidityReadings[NUM_READINGS];
-int readIndex = 0; // Current reading index
-float totalTemp = 0; // Total of all temperature readings
-float totalHumidity = 0; // Total of all humidity readings
-float averageTemp = 0; // Average temperature
-float averageHumidity = 0; // Average humidity
-float lastPrintedAverageTemp = 0; // Last printed average temperature
-float lastPrintedAverageHumidity = 0; // Last printed average humidity
+int readIndex = 0;
+float totalTemp = 0;
+float totalHumidity = 0; 
+float averageTemp = 0; 
+float averageHumidity = 0; 
+float lastPrintedAverageTemp = 0; 
+float lastPrintedAverageHumidity = 0; 
 
 void setup() {
   // Start serial communication

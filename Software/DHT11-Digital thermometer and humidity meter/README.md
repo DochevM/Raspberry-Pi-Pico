@@ -12,8 +12,11 @@ Humidity: 41.00 %
 ```
 ## Connections
 
-| Raspberry Pi Pico  |     DHT11     |
-| ------------------ | ------------- |
-| 3,3V               | Vcc           |
-| Pin 14             | Data          |
-| GND                | GND           |
+| Raspberry Pi Pico  |       DHT11        |
+| ------------------ | -------------------|
+| 3,3V               | Vcc                |
+| GP14               | Data               |
+| GND                | GND                |
+
+
+![alt text](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)
