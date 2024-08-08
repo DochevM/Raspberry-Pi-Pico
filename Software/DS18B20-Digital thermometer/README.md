@@ -29,6 +29,5 @@ Sensor 2 : 26.62°C
 | 3,3V               | Vdd                | Vdd                |
 | GP22               | Dq                 | Dq                 |
 | GND                | GND                | GND                |
-| GND                | GND                | GND                |
 
 ![alt text](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)
