@@ -14,8 +14,8 @@
 - Temperature sensor
 - Accelerated floating-point libraries on-chip
 - 8 × Programmable I/O (PIO) state machines for custom peripheral support
-<p align="center">
-   <![image](https://github.com/user-attachments/assets/da187479-24ed-4435-9a78-6c40e8c2605d)>
+  <p align="center">
+  <img width="600" height="330" src="https://github.com/user-attachments/assets/da187479-24ed-4435-9a78-6c40e8c2605d">
 </p>
 
 # About RP2040
