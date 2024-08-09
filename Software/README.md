@@ -28,8 +28,8 @@ MCP9700/A/B and [MCP9701/A](https://store.comet.bg/Catalogue/Product/5003942/) i
 ## WEA012864D-OLED Display
 [WEA012864D](https://store.comet.bg/Catalogue/Product/51127/) version OLED module is a diagonal size 0.96 inch COG OLED display with PCB board on it. This WEA012864D version OLED panel is made of 128x64 pixels.
 ### Libraries for WEA012864D
--[Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library) 
--[Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
+- [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library) 
+- [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 
 
 
