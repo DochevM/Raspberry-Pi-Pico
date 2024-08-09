@@ -40,8 +40,9 @@ Key features:
     - USB 1.1 controller and PHY, with host and device support
     - 8 PIO state machines
 
-# Embedded sensors for RP2040
+# Embedded sensors and displays for RP2040
 - MCP9701A - Analog temperature sensor
 - DHT11 - Digitial temperature and humidity sensor
 - DHT22 - Digitial temperature and humidity sensor
 - DS18B20 - Digital temperature sensor
+-WEA012864D - Graphic OLED Display
