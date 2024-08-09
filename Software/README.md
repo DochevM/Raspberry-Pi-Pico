@@ -25,7 +25,8 @@ MCP9700/A/B and [MCP9701/A](https://store.comet.bg/Catalogue/Product/5003942/) i
    **_No libraries required_**
 
 
-## WEA012864D-Graphic OLED Display
+## WEA012864D-OLED Display
+
 
 
 
