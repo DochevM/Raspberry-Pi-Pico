@@ -1,5 +1,5 @@
 ## Output
-![](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/OutputEpaper.gif)
+![](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/OutputEdisplay.gif)
 ## Connections
 
 | Raspberry Pi Pico | Epaper Display |
