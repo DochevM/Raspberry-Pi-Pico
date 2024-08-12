@@ -45,4 +45,6 @@ Key features:
 - DHT11-Digitial temperature and humidity sensor
 - DHT22-Digitial temperature and humidity sensor
 - DS18B20-Digital temperature sensor
--WEA012864D-Graphic OLED Display
+- WEA012864D-OLED display
+- GDEY029T94-E-Paper display
+
