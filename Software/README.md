@@ -35,7 +35,7 @@ MCP9700/A/B and [MCP9701/A](https://store.comet.bg/Catalogue/Product/5003942/) i
 [GDEY029T94](https://store.comet.bg/Catalogue/Product/46503/)is a e ink screen, 2.9 inch, with 296x128 resolution, SSD1680, SPI interface. The 2.9'' e ink supports 4 grayscales and partial refresh. It can be customized to achieve 1.5s fast refresh.
 ### Libraries
 - [GxEPD2](https://github.com/ZinggJM/GxEPD2)
-- []
+- [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library) 
 
 
 
