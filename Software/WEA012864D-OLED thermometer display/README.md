@@ -2,19 +2,14 @@
 ![](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/Output_Oled.gif)
 ## Connections
 
-| Raspberry Pi Pico  |     WEA012864D     |
-| ------------------ | -------------------|
-| 3,3V               | Vcc                |
-| SCL                | SCL                |
-| SDA                | SDA                |
-| GND                | GND                |            
+## Connections
+
+| Raspberry Pi Pico |     WEA012864D     |               | Raspberry Pi Pico |       DHT22        |
+| ----------------- | ------------------ |               | ----------------- | ------------------ |
+| 3,3V              | Vcc                |               | 3,3V              | Vcc                |
+| SCL               | SCL                |               | GP15              | Data               |
+| SDA               | SDA                |               | GND               | GND                |
+| GND               | GND                |               |                   |                    |
 
 
-
-| Raspberry Pi Pico  |       DHT22        |
-| ------------------ | ------------------ |
-| 3,3V               | Vcc                |
-| GP15               | Data               |
-| GND                | GND                |
-
-![alt text](https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg)
+![alt text](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/pico-pinout.png)
