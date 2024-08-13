@@ -1,4 +1,4 @@
-# Used sensors
+# Used sensors and displays
 
 ## DHT11-Digital temperature and humidity sensor
 The [DHT11](https://store.comet.bg/Catalogue/Product/50012/) is a basic, ultra low-cost digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin (no analog input pins needed). 
