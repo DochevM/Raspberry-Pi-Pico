@@ -47,4 +47,5 @@ Key features:
 - DS18B20-Digital temperature sensor
 - WEA012864D-OLED display
 - GDEY029T94-E-Paper display
+- GDEW0154Z17-E-paper display
 
