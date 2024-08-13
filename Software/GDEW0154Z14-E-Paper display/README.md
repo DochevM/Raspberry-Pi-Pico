@@ -1,11 +1,10 @@
 ## Output
 ![](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/Output152x152.jpg)
-## Connections
 
 ## Connections
 
 | Raspberry Pi Pico | Epaper Display |               | Raspberry Pi Pico |       DHT22        |
-| ----------------- | -------------- |               | ----------------- | ------------------ |
+| ----------------- | -------------- | ------------- | ----------------- | ------------------ |
 | 3.3V              | 3.3V           |               | 3.3V              | Vcc                |
 | GND               | GND            |               | GP15              | Data               |
 | GPIO 19           | SDI            |               | GND               | GND                |
