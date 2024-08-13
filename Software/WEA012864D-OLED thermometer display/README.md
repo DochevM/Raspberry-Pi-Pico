@@ -1,6 +1,5 @@
 ## Output
 ![](https://github.com/DochevM/Raspberry-Pi-Pico/blob/main/Documents/Output_Oled.gif)
-## Connections
 
 ## Connections
 
